@@ -1,0 +1,51 @@
+body#iframe-body {
+    background-color: #f1f4f6;
+}
+
+.ui.container.App {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.App {
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.react-tabs__tab-list {
+    border-color: #e7e7e7;
+}
+
+.react-tabs__tab {
+    color: #5d6068;
+    font-size: 12px;
+}
+
+.ui.message {
+    font-size: 12px;
+}
+
+h4.ui.header {
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+
+.ui.dividing.header {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.ui.form .field .ui.input input {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.ui.button {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.ui.form .field {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}

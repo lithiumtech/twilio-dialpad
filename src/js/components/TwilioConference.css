@@ -1,0 +1,133 @@
+.sf-Btn .sf-SVGRefIcon.dialer-icons {
+    position: relative;
+    top: 3px;
+    color: white;
+    fill: white;
+}
+
+.sf-Btn:disabled .dialer-icons {
+    fill: white;
+}
+
+.sf-Btn.dialer-buttons.on-hold-button {
+    background-color: black;
+    color: white;
+}
+
+/*
+.on-hold-button.sf-Btn:disabled .dialer-icons {
+    fill: #969aa2;
+}
+
+.sf-Btn.on-hold-button:disabled .buttonText {
+    color: #969aa2;
+}
+*/
+
+.dialer-icon-wrapper {
+    float: left;
+}
+
+.dialer-buttons {
+    width: 155px;
+    border-radius: 15px;
+    padding: 0px 30px;
+}
+
+.phone-controls-header {
+    border-bottom: 2px solid #0363d3;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.buttonText {
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.sf-Btn:disabled .buttonText {
+    color: white;
+}
+
+.sf-Btn--secondary.hangupButton {
+    background-color: #e42626;
+    color: white;
+}
+
+.sf-Btn--secondary.endConferenceButton {
+    background-color: #e42626;
+    width: 320px;
+    color: white;
+}
+
+.sf-Btn--primary.phoneButton {
+    background-color: #2ba805;
+    border: #2ba805;
+}
+
+.sf-Btn--primary.calling {
+    text-align: center;
+    -webkit-animation: glowing 1300ms infinite;
+    -moz-animation: glowing 1300ms infinite;
+    -o-animation: glowing 1300ms infinite;
+    animation: glowing 1300ms infinite;
+}
+
+.dialer-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.Call {
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 117px;
+    padding: 0px 10px;
+}
+
+.PhoneInputInput {
+    height: 29px;
+    border-radius: 15px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+.on-hold-button.sf-Btn--secondary:hover svg {
+    fill: white;
+}
+
+.on-hold-button.sf-Btn--secondary svg {
+    fill: white;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-color: #2ba805;
+        -webkit-box-shadow: 0 0 3px #2ba805;
+    }
+    50% {
+        background-color: #49e819;
+        -webkit-box-shadow: 0 0 15px #49e819;
+    }
+    100% {
+        background-color: #2ba805;
+        -webkit-box-shadow: 0 0 3px #2ba805;
+    }
+}
+@keyframes glowing {
+    0% {
+        background-color: #2ba805;
+        -webkit-box-shadow: 0 0 3px #2ba805;
+    }
+    50% {
+        background-color: #49e819;
+        -webkit-box-shadow: 0 0 15px #49e819;
+    }
+    100% {
+        background-color: #2ba805;
+        -webkit-box-shadow: 0 0 3px #2ba805;
+    }
+}

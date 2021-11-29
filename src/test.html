@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script defer="defer" src="https://twilio-dialpad.s3-us-west-2.amazonaws.com/index.bundle.js"></script>
+    </head>
+    <body>
+        <div id="test"></div>
+        <script>
+            window.addEventListener('load', function () {
+                alert("It's loaded!");
+                window.loadVoiceControl(document.getElementById('test'), {test:"test"});
+            });
+        </script>
+</html>
