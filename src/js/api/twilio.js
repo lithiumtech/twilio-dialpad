@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+// const twilio = axios.create({
+//     baseURL: 'https://7vjssrci6d.execute-api.us-west-2.amazonaws.com/dev/api/v1/twilio',
+// });
 const twilio = axios.create({
-    baseURL: 'https://7vjssrci6d.execute-api.us-west-2.amazonaws.com/dev/api/v1/twilio',
+    baseURL: 'https://4fo65fdqv2.execute-api.eu-central-1.amazonaws.com/dev/api/v1/twilio',
 });
 
 export const getToken = async (agent) => {
