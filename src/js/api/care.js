@@ -3,8 +3,6 @@ import axios from 'axios';
 const clientMap = {
     'manual-c01': {
         url: 'https://manual-c01.sdxdemo.com/api/v2',
-        username: 'services-automation+chrisb@krs.com',
-        password: 'yU11hyRC53!X*dHV',
     },
     'samsungbnl-dev': {
         baseUrl: 'https://samsungbnl-dev.response.lithium.com',
